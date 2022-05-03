@@ -1,0 +1,166 @@
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+@keyframes wallAnimation {
+  from {background-color: white;}
+  to {background-color: rgb(2, 2, 19);}
+}
+
+@keyframes stretch-wall {
+  0% {
+    transform: scale(.3);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgb(2, 2, 19);
+  }
+}
+
+@keyframes stretch-path {
+  0% {
+    transform: scale(.3);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+    background-color: yellow;
+  }
+}
+
+
+@keyframes startEndCellAnimation {
+  from {
+    transform: scale(.3);
+  } 
+  to {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes stretch-openSet {
+  0% {
+    transform: scale(.3);
+    background-color: rgb(200, 19, 255);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #2F6D80;
+
+  }
+}
+
+@keyframes stretch-closedSet {
+  0% {
+    transform: scale(.3);
+    background-color: rgb(94, 0, 182);
+    /* border-radius: 100%; */
+  }
+  50% {
+    transform: scale(1.2);
+    background-color: #2593a7;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #54A2D2;
+  }
+}
+
+
+@keyframes buttonHover {
+
+  from {
+    background-color: #2E8BC0;
+  }
+  to {
+    background-color: #00a8e0;
+  }
+}
+@keyframes buttonNotHover {
+
+  from {
+    background-color: #00a8e0;
+  }
+  to {
+    background-color: #2E8BC0;
+  }
+}
+
+@keyframes dropdown-hover {
+
+  from {
+    background-color: rgb(105, 38, 168);
+  }
+  to {
+    background-color: rgb(131, 61, 196);
+  }
+}
+
+@keyframes openDropdown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dropdownTextHover {
+  from {
+    color: white;
+  }
+  to {
+    color: rgb(105, 38, 168);
+  }
+}
+@keyframes dropdownTextNotHover {
+  from {
+    color:rgb(105, 38, 168);
+  }
+  to {
+    color: white;
+  }
+}
+
+@keyframes calculateButtonHover {
+  from {
+    color: yellow;
+  }
+  to {
+    color: rgb(105, 38, 168);
+  }
+}
+@keyframes calculateButtonNotHover {
+  from {
+    color:rgb(105, 38, 168);
+  }
+  to {
+    color: yellow;
+  }
+}
+
+
+
+@keyframes dropdownOptionHover {
+  from {
+    background-color: rgb(105, 38, 168);
+  }
+  to {
+    background-color: rgb(131, 61, 196);
+  }
+}
+@keyframes dropdownOptionNotHover {
+  from {
+    background-color: rgb(131, 61, 196);
+  }
+  to {
+    background-color: rgb(105, 38, 168);
+  }
+}
