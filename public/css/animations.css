@@ -1,0 +1,54 @@
+@keyframes wallAnimation {
+  from {background-color: white;}
+  to {background-color: rgb(202, 202, 202);}
+}
+
+@keyframes stretch-wall {
+  0% {
+    transform: scale(.3);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+    background-color: rgb(110, 110, 110);
+  }
+}
+
+@keyframes startEndCellAnimation {
+  from {
+    transform: scale(.3);
+  } 
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes stretch-openSet {
+  0% {
+    transform: scale(.3);
+    background-color: rgb(200, 19, 255);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #296577;
+
+  }
+}
+
+@keyframes stretch-closedSet {
+  0% {
+    transform: scale(.3);
+    background-color: rgb(94, 0, 182);
+    /* border-radius: 100%; */
+  }
+  50% {
+    transform: scale(1.2);
+    background-color: #2593a7;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #2593a7;
+  }
+}

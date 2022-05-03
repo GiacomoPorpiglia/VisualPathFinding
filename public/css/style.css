@@ -1,0 +1,64 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+}
+
+.grid {
+    display: grid;
+    height: 65vh;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(41, 1fr);
+    width: 100%;
+    border: 3px solid rgb(99, 99, 99);
+}
+
+.cell {
+    border: 1px solid rgb(61, 61, 61);
+    offset: 0px;
+}
+
+
+.openSet {
+    background-color: #296577;
+    animation: stretch-openSet 0.8s;
+}
+
+.closedSet {
+    background-color: #2593a7;
+    animation: stretch-closedSet 0.8s;
+}
+.start {
+    background-color: blueviolet;
+    animation: startEndCellAnimation 0.4s;
+}
+
+.end {
+    background-color: blueviolet;
+    animation: startEndCellAnimation 0.4s;
+}
+
+
+.wall {
+    background-color: rgb(110, 110, 110);
+    animation: stretch-wall 0.5s;
+}
+
+.path {
+    background-color: yellow;
+}
+
+.alert {
+    color: red;
+    font-size: small;
+    padding: 0px;
+    margin: 1px;
+    visibility: hidden;
+}
+
+.myBtn {
+    height: 50%;
+}
