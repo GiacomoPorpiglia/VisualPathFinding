@@ -14,3 +14,6 @@ Dijkstra is the father of all pathfining algorithms, and it always gives the BES
  
  ## Best-first search
 Best-first search is an algorithm which explores a graph by expanding the most promising node. Therefore, since not every node is explored, it's never guaranteed that this algorithm finds the best possible path between point A and B, since it picks the next choice and immediately expands it to keep going forward, without making sure that that choice actually was the best of all. You can find more [here](https://en.wikipedia.org/wiki/Best-first_search)
+<br />
+<br />
+Hope you enjoy playing with this project I put a lot of effort on, and give me a feedback if you want!
