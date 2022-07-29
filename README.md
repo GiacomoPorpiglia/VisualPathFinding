@@ -1,6 +1,6 @@
 # Pathfinding
 
-Welcome to this Path Finding visualization (and also, my first GitHub project :) )! 
+Welcome to this Path Finding visualization (and also, my first GitHub project 😜 )! 
 You can have fun with this project at https://giacomoporpiglia.github.io/VisualPathFinding/ (Use Chrome!!!)
 At the moment you can try 3 different Algorithms: 
 ## Dijkstra
