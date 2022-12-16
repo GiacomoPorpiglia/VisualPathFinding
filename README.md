@@ -2,6 +2,8 @@
 
 Welcome to this Path Finding visualization (and also, my first GitHub project 😜 )! 
 You can have fun with this project at https://giacomoporpiglia.github.io/VisualPathFinding/ (Use Chrome!!!)
+The project is built without the help of frameworks like React, so I know it may not look awesome, but it does its job :) <br />
+
 At the moment you can try 4 different Algorithms: 
 ## Dijkstra
 Dijkstra is the father of all pathfining algorithms, and it always gives the BEST path from a starting node to the end. It doesn't rely on heuristic, therefore it expands every node in the graph based on its distance from the starting node. You can find more [here](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
