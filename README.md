@@ -2,7 +2,7 @@
 
 Welcome to this Path Finding visualization (and also, my first GitHub project 😜 )! 
 You can have fun with this project at https://giacomoporpiglia.github.io/VisualPathFinding/ (Use Chrome!!!) <br />
-The project is built without the help of frameworks like React, so I know it may not look awesome, but it does its job :) <br />
+The project is built with <b> just vanilla javascript, html and css </b> , without the help of frameworks like React, so I know it may not look awesome, but it does its job :) <br />
 
 At the moment you can try 4 different Algorithms: 
 ## Dijkstra
